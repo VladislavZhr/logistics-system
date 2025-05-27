@@ -18,7 +18,7 @@ function LogisticsPage() {
     const clickIcon = L.divIcon({
         html: '<div style="font-size: 26px;">📌</div>', // або '🧭', '📌' — що хочеш
         iconSize: [30, 30],
-        className: 'custom-marker-icon',
+        className: 'custom-marker-icon',//d
     });
 
     const warehouseIcon = L.divIcon({

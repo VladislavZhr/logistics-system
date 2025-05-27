@@ -31,7 +31,7 @@ function Menu() {
           <li><Link to="/profile">Profile</Link></li>
           <li><Link to="/orders">Orders</Link></li>
           {isManager && <li><Link to="/manager">Manager Panel</Link></li>}
-          {isAdmin && <li><Link to="/admin">Admin Panel</Link></li>} {/* Лише для адмінів */}
+          {isAdmin && <li><Link to="/admin">Admin Panel</Link></li>} {/* Лише для адdмінів */}
         </ul>
       </nav>
     </div>

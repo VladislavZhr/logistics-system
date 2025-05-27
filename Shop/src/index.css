@@ -509,7 +509,7 @@
   display: flex;
   justify-content: center;         /* Центруємо по горизонталі */
   align-items: flex-start;         /* Вирівнюємо верхній край */
-  gap: 50px;                       /* Відстань між лівим і правим блоками */
+  gap: 50px;                       /* Відстань міdж лівим і правим блоками */
   margin-bottom: 30px;
   margin-top: 30px;
 }

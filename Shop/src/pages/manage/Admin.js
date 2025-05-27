@@ -23,7 +23,7 @@ function AdminPanel() {
                 console.error("Error loading users", err);
                 setMessage("Failed to load users.");
             });
-    }, [API_URL, token]);
+    }, [API_URL, token]);//d
 
     const handleDeleteUser = (userId) => {
         fetch(`${API_URL}/api/admin/delete?userId=${userId}`, {

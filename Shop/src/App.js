@@ -26,7 +26,7 @@ function App() {
         <Route path="/passwordreset" element={<ResetPassword />} />
         <Route path="/forgotpassword" element={<ForgotPassword />} />
 
-        {/* Сторінки з Layout */}
+        {/* Сторінки з Layodut */}
         <Route path="/" element={<Layout />}>
           <Route path="profile" element={<Profile />} />
           <Route path="manager" element={<ManagerPanel />} />

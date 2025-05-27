@@ -30,7 +30,7 @@ function Transactions() {
         .then(setCryptoTransactions)
         .catch(() => setMessage("Failed to load crypto transactions"));
   };
-
+//d
   const fetchFiatTransactions = () => {
     fetch(`${API_URL}/api/details/all/fiat-transactions`, {
       method: "GET",

@@ -7,7 +7,7 @@ function Layout() {
     <div className="layout">
       <Menu />  {/* Загальне меню */}
       <main className="content">
-        <Outlet /> {/* Тут буде виводитися контент поточної сторінки */}
+        <Outlet /> {/* Тут буде виводитися контент поточної стоdрінки */}
       </main>
     </div>
   );

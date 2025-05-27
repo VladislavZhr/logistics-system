@@ -233,7 +233,7 @@
   will-change: transform;
 }
 .menu-trigger {
-  z-index: 1000000000000000000000;
+  z-index: 1000000000000000000000;/**/
 }
 .menu > ul:hover > li a:not(:hover) {
   color: rgba(249, 249, 237, 0.5);

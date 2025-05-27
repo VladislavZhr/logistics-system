@@ -16,7 +16,7 @@ function Orders() {
                 "Content-Type": "application/json",
             },
         })
-            .then((response) => {
+            .then((response) => {//d
                 if (!response.ok) {
                     return response.text().then((text) => {
                         throw new Error(text || "Failed to fetch orders");

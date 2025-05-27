@@ -19,7 +19,7 @@ function ManagerPanel() {
     useEffect(() => {
         fetch(`${API_URL}/api/warehouse`, {
             method: "GET",
-            headers: { Authorization: `Bearer ${token}` },
+            headers: { Authorization: `Bearer ${token}` },//d
         })
             .then(res => res.json())
             .then(data => setWarehouses(data))

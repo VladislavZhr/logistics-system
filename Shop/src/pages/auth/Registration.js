@@ -16,7 +16,7 @@ function Registration() {
   }, []);
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault();//d
 
     try {
       const response = await fetch(`${API_URL}/api/auth/register`, {

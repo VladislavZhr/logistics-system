@@ -16,7 +16,7 @@ function ForgotPassword() {
 
     if (newPassword !== confirmPassword) {
       setMessage('Passwords do not match!');
-      return;
+      return;//d
     }
 
     try {

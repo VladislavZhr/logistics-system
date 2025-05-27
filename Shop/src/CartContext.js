@@ -17,7 +17,7 @@ export const CartProvider = ({ children }) => {
 
   const addToCart = (item) => {
     setCartItems((prevItems) => {
-      return [...prevItems, item]; // Добавляем новый элемент без перезаписи
+      return [...prevItems, item]; // Добавляем нdовый элемент без перезаписи
     });
   };
 
