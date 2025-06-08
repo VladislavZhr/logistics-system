@@ -20,7 +20,7 @@ The application provides services for:
 - **Docker & Docker Compose** — containerization and local orchestration
 - **OpenStreetMap / OSRM** — route calculation API
 - **Stripe & CryptoCloud** — fiat and crypto payments
-- **React (optional)** — frontend for user interaction
+- **React** — frontend for user interaction
 - **Leaflet.js** — map rendering (if frontend is used)
 
 ---
